@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background: url('bg.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: 'Monteseratt', sans-serif;
+    color: white;
+}
+.container {
+    border-radius: 24px;
+    background-color: #0A5B58;
+    opacity: 0.91;
+    width: 470px;
+    height: 500px;
+    margin: 3rem auto;
+}
+.wrapper {
+    padding: 2rem ;
+}
+.wrapper h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 88px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 44px;
+    margin-top: 10px;
+}
+form input {
+    border: 2px solid #00D3CB;
+    box-sizing: border-box;
+    border-radius: 17px;
+    background: transparent;
+    width: 400px;
+    height: 40px;
+}
+form button {
+    background: #03F3EA;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 350px;
+    height: 45px;
+    align-self: center;
+    margin-top: 2rem;
+}
+form button a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #003E42;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+#links {
+    text-align: center;
+    margin-top: 30px;
+    color: #00FFF5;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+}
+#links p a {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+    color: #00FFF5;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+}
+@media all and (max-width: 425px) {
+    .container {
+        width: 369px;
+        height: 505px;
+    }
+    form input {
+        width: 310px;
+    }
+    form button {
+        width: 250px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .container {
+        width: 330px;
+        height: 505px;
+    }
+    form input {
+        width: 270px;
+    }
+    form button {
+        width: 220px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .container {
+        width: 290px;
+        height: 505px;
+    }
+    form input {
+        width: 230px;
+    }
+    form button {
+        width: 190px;
+    }
+    #links {
+        font-size: 10px;
+    }
+    #links p a {
+        font-size: 10px;
+    }
+}
